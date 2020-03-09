@@ -1,5 +1,4 @@
 # Working with Strings
-by [Steve Smith](http://deviq.com/me/steve-smith)
 
 ## Strings in C#
 
@@ -236,6 +235,8 @@ class Program
 
 Of all of the above, the string interpolation approach (``greet1``) is recommended. It's clean, readable, and generally has better performance than the other approaches. However, using format strings or templates is a good option if you need to store the template separately from the scope of the variables that will be used during runtime value replacement.
 
+## String builder
+https://www.tutorialsteacher.com/csharp/csharp-stringbuilder
 ## Next Steps
 
 Now it's your turn. Create some code that will take two string variables and build a greeting from them. One variable should be the greeting and another variable should be the name to be greeted. Make sure your greeting includes punctuation at the end, after the position where the name will be inserted!
