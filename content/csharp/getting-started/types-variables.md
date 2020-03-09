@@ -94,6 +94,7 @@ Run the program.
 
 You should see the output that includes your name (or "Steve" if you decided to just use the code above).
 
+
 ## Next Steps
 
 Create another variable to represent the greeting. Change the ``Console.WriteLine`` statement to construct the greeting from your new greeting variable and the name variable used above. You'll learn more about working with strings like this in the next lesson.

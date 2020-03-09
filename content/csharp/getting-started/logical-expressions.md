@@ -1,5 +1,4 @@
 # Implementing Logical Expressions
-by [Steve Smith](http://deviq.com/me/steve-smith)
 
 ## Logical Operators
 
