@@ -1,5 +1,4 @@
 # Making Decisions in Your Program
-by [Steve Smith](http://deviq.com/me/steve-smith)
 
 ## If This Then That
 
