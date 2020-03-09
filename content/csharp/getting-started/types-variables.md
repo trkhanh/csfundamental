@@ -1,5 +1,25 @@
 # Learning About Built-In Types and Variables
-by [Steve Smith](http://deviq.com/me/steve-smith)
+
+## C# Identifiers
+An identifier is a name used to identify a class, variable, function, or any other user-defined item. The basic rules for naming classes in C# are as follows −
+
+A name must begin with a letter that could be followed by a sequence of letters, digits (0 - 9) or underscore. The first character in an identifier cannot be a digit.
+
+It must not contain any embedded space or symbol such as? - + ! @ # % ^ & * ( ) [ ] { } . ; : " ' / and \. However, an underscore ( _ ) can be used.
+
+It should not be a C# keyword.
+
+```{class=snippet}
+class Calculation
+class Demo
+void display()
+void getMarks()
+int a;
+int marks;
+int rank;
+double res_marks;
+```
+
 
 ## Adding Variables
 
