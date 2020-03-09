@@ -95,6 +95,28 @@ Run the program.
 You should see the output that includes your name (or "Steve" if you decided to just use the code above).
 
 
+## C# Comment
+Comments can be used to explain C# code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+
+Single-line comments start with two forward slashes (//).
+Any text between // and the end of the line is ignored by C# (will not be executed).
+This example uses a single-line comment before a line of code:
+
+```{.snippet}
+Console.WriteLine("Hello World!");  // This is a comment
+```
+
+## C# Multi-line Comments
+Multi-line comments start with /* and ends with */.
+Any text between /* and */ will be ignored by C#.
+This example uses a multi-line comment (a comment block) to explain the code:
+
+```{.snippet}
+/* The code below will print the words Hello World
+to the screen, and it is amazing */
+Console.WriteLine("Hello World!"); 
+```
+
 ## Next Steps
 
 Create another variable to represent the greeting. Change the ``Console.WriteLine`` statement to construct the greeting from your new greeting variable and the name variable used above. You'll learn more about working with strings like this in the next lesson.
