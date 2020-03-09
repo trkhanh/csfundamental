@@ -20,6 +20,13 @@ int rank;
 double res_marks;
 ```
 
+## C# data type
+
+Common datatype: 
+![alt text](https://www.theengineeringprojects.com/wp-content/uploads/2018/02/introduction-to-data-types-in-C-1.png "data type")
+
+Datatype structure
+![alt text](https://www.theengineeringprojects.com/wp-content/uploads/2018/02/introduction-to-data-types-in-C-Sharp-768x541.jpg "data type")
 
 ## Adding Variables
 
