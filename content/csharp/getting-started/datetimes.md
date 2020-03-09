@@ -1,5 +1,4 @@
 # Working with Dates and Times
-by [Steve Smith](http://deviq.com/me/steve-smith)
 
 ## The DateTime Type
 
