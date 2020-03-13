@@ -53,7 +53,7 @@ Nhập 4 số từ bàn phím và sau đó tìm và hiển thị giá trị trun
 ```c#
 using System;
 
-namespace VietJackCsharp
+namespace ThayKhanhCsharp
 {
     class TestCsharp
     {
@@ -81,6 +81,10 @@ namespace VietJackCsharp
     }
 }
 ```
+
+### Bài tập C#: Tráo đổi giá trị hai số
+Đây là bài tập C# cơ bản và có khá nhiều ứng dụng trong khi làm các bài tập C# khác. Bài tập C# này giúp bạn làm quen với cấu trúc chương trình C# và cách để tráo đổi giá trị của hai số.
+
 #### Bài tập C#: Kiểm tra chẵn lẻ
 Nhập hai số từ bàn phím, trả về true nếu cả hai số cùng chẵn, nếu không thì trả về false.
 
