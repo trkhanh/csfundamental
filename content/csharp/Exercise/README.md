@@ -173,3 +173,9 @@ G                      Giỏi
 A                      Trung bình
 F                      Trượt
 Đây là bài tập C# cơ bản minh họa giúp bạn cách sử dụng lệnh SWITCH ... CASE trong C#.
+
+
+#### Bài tập C#: Nhập số và hiển thị số bằng chữ tương ứng
+Yêu cầu bài tập C# này là nhập một số bất kỳ và hiển thị số bằng chữ tương ứng, ví dụ: 0 là số không, 1 là số một, ....
+
+Đây là bài tập C# cơ bản minh họa giúp bạn cách sử dụng lệnh SWITCH ... CASE trong C#.
