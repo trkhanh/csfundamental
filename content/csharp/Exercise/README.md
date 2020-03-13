@@ -16,7 +16,6 @@ namespace ThayKhanhCsharp
             System.Console.WriteLine(15 + 17);  
             System.Console.WriteLine("\n----------------------------\n");
             System.Console.WriteLine("ThayKhanh chuc cac ban hoc tot !!!");
-<<<<<<< HEAD
             Console.ReadKey();
         } 
     }
@@ -40,8 +39,6 @@ namespace ThayKhanhCsharp
 
             Console.WriteLine("Do K tuong ung la = {0}", celsius + 273);
             Console.WriteLine("Do F tuong ung la = {0}", celsius * 18 / 10 + 32);
-=======
->>>>>>> giaovien
             Console.ReadKey();
         } 
     }
