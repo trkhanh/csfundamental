@@ -21,6 +21,29 @@ namespace VietJackCsharp
     }
 }
 ```
+#### Bài tập C#: Chuyển đổi độ C thành độ K và độ F
+Công thức chuyển đổi độ C thành độ K và độ F như sau:
+1 K = 1 C + 273
+1 F = C * 18/10 + 32
+```c#
+using System;
+
+namespace VietJackCsharp
+{
+    class TestCsharp
+    {
+        public static void Main()
+        {
+            Console.Write("Nhap do C: ");
+            int celsius = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Do K tuong ung la = {0}", celsius + 273);
+            Console.WriteLine("Do F tuong ung la = {0}", celsius * 18 / 10 + 32);
+            Console.ReadKey();
+        } 
+    }
+}
+```
 
 #### Bài tập C#: Nhập 3 chữ cái và hiển thị theo chiều ngược lại
 
