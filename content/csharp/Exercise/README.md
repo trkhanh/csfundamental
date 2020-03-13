@@ -6,7 +6,7 @@ Yêu cầu bài tập C# này là tính tổng hai số và sau đó hiển th�
 ```c#
 using System;
 
-namespace VietJackCsharp
+namespace ThayKhanhCsharp
 {
     class TestCsharp
     {
@@ -15,7 +15,7 @@ namespace VietJackCsharp
             System.Console.Write("Tong cua hai so 15 va 17 la: ");
             System.Console.WriteLine(15 + 17);  
             System.Console.WriteLine("\n----------------------------\n");
-            System.Console.WriteLine("VietJack chuc cac ban hoc tot !!!");
+            System.Console.WriteLine("ThayKhanh chuc cac ban hoc tot !!!");
             Console.ReadKey();
         } 
     }
@@ -28,7 +28,7 @@ Công thức chuyển đổi độ C thành độ K và độ F như sau:
 ```c#
 using System;
 
-namespace VietJackCsharp
+namespace ThayKhanhCsharp
 {
     class TestCsharp
     {
