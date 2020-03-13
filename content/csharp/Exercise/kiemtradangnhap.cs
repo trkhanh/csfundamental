@@ -1,6 +1,6 @@
 using System;
 
-namespace VietJackCsharp
+namespace ThayKhanhCsharp
 {
     class TestCsharp
     {
