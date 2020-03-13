@@ -47,6 +47,40 @@ namespace ThayKhanhCsharp
 
 #### Bài tập C#: Nhập 3 chữ cái và hiển thị theo chiều ngược lại
 
+#### Bài tập C#: Tìm giá trị trung bình
+Nhập 4 số từ bàn phím và sau đó tìm và hiển thị giá trị trung bình của 4 số này trên màn hình Console. Đây là một bài tập C# cơ bản giúp bạn làm quen với cách nhập dữ liệu từ bàn phím và làm quen với cấu trúc chương trình C#.
+
+```c#
+using System;
+
+namespace VietJackCsharp
+{
+    class TestCsharp
+    {
+        public static void Main()
+        {
+            int number1, number2, number3, number4;
+
+            Console.Write("Nhap so thu nhat: ");
+            number1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Nhap so thu hai: ");
+            number2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Nhap so thu ba: ");
+            number3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Nhap so thu tu: ");
+            number4 = Convert.ToInt32(Console.ReadLine());
+
+            int result = (number1 + number2 + number3 + number4) / 4;
+            Console.WriteLine("Gia tri trung binh cua {0} , {1} , {2} , {3} la: {4} ",
+            number1, number2, number3, number4, result); 
+            Console.ReadKey();
+        } 
+    }
+}
+```
 #### Bài tập C#: Kiểm tra chẵn lẻ
 Nhập hai số từ bàn phím, trả về true nếu cả hai số cùng chẵn, nếu không thì trả về false.
 
