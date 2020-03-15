@@ -117,6 +117,69 @@ to the screen, and it is amazing */
 Console.WriteLine("Hello World!"); 
 ```
 
+## Static keyword in C#
+static is a modifier in C# which is applicable for the following:
+- Classes
+- Variables
+- Methods
+- Constructor
+It is also applicable to properties, event, and operators. To create a static member(class, variable, methods, constructor), precede its declaration with the keyword static. When a member is declared static, it can be accessed with the name of its class directly.
+
+A static class is declared with the help of static keyword. A static class can only contain static data members, static methods, and a static constructor. It is not allowed to create objects of the static class. Static classes are sealed, means one cannot inherit a static class from another class.
+```C#
+// C# program to illustrate the 
+// concept of a static class 
+using System; 
+  
+// Creating static class 
+// Using static keyword 
+static class Tutorial { 
+  
+    // Static data members of Tutorial 
+    public static string Topic = "Static class"; 
+} 
+  
+// Driver Class 
+public class GFG { 
+  
+    // Main Method 
+    static public void Main() 
+    { 
+  
+        // Accessing the static data members of Tutorial 
+        Console.WriteLine("Topic name is : {0} ", Tutorial.Topic); 
+    } 
+} 
+```
+### Static Variable
+A static variable is declared with the help of static keyword. When a variable is declared as static, then a single copy of the variable is created and shared among all objects at the class level. Static variables are accessed with the name of the class, they do not require any object for access.
+```c#
+// C# program to illustrate the 
+// concept of static varaible 
+using System; 
+  
+class Vehicle { 
+  
+    // Creating static variable 
+    // Using static keyword 
+    public static string Model_color = "Black"; 
+} 
+  
+// Driver Class 
+public class GFG { 
+  
+    // Main Method 
+    static public void Main() 
+    { 
+  
+        // Accessing the static variable 
+        // using its class name 
+        Console.WriteLine("Color of XY model is  : {0} ", 
+                                    Vehicle.Model_color); 
+    } 
+} 
+```
+
 ## Next Steps
 
 Create another variable to represent the greeting. Change the ``Console.WriteLine`` statement to construct the greeting from your new greeting variable and the name variable used above. You'll learn more about working with strings like this in the next lesson.
