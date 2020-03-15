@@ -179,6 +179,46 @@ public class GFG {
     } 
 } 
 ```
+### Static Method
+A static method is declared with the help of static keyword. Static methods are accessed with the name of the class. A static method can access static and non-static fields, static fields are directly accessed by the static method without class name whereas non-static fields require objects.
+```c#
+
+// C# program to illustrate the 
+// concept of static method 
+using System; 
+  
+class Nparks { 
+  
+    static public int t = 104; 
+  
+    // Creating static method 
+    // Using static keyword 
+    public static void total() 
+    { 
+        Console.WriteLine("Total number of national parks"+ 
+                           " present in India is :{0}", t); 
+    } 
+} 
+  
+// Driver Class 
+public class GFG { 
+  
+    // Main Method 
+    static public void Main() 
+    { 
+  
+        // Accessing the static method 
+        // using its class name 
+        Nparks.total(); 
+    } 
+} 
+```
+### Limitation of using static keyword:
+
+static keyword cannot be used by indexers, finalizers, or types other than classes.
+A static member is not referenced through an instance.
+In C#, it is not allowed to use this to reference static methods or property accessors.
+In C#, if static keyword is used with the class, then the static class always contain static members.
 
 ## Next Steps
 
