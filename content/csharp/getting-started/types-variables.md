@@ -214,11 +214,11 @@ public class GFG {
 } 
 ```
 ### Limitation of using static keyword:
+- static keyword cannot be used by indexers, finalizers, or types other than classes.
+- A static member is not referenced through an instance.
+- In C#, it is not allowed to use this to reference static methods or property accessors.
+- In C#, if static keyword is used with the class, then the static class always contain static members.
 
-static keyword cannot be used by indexers, finalizers, or types other than classes.
-A static member is not referenced through an instance.
-In C#, it is not allowed to use this to reference static methods or property accessors.
-In C#, if static keyword is used with the class, then the static class always contain static members.
 
 ## Next Steps
 
