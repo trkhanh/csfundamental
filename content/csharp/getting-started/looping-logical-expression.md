@@ -33,6 +33,33 @@ You can think of a ``while`` loop as being just like an ``if`` statement that ke
 > **Tip** {.tip .newLanguage}    
 > When a loop is based on the value of a particular variable, this variable is called the *loop control variable*. It's often critical that you remember to update the value of the loop control variable within the loop, or risk an infinite loop (see below).
 
+### Another way to go with While is do-while
+```C#
+  int numberToGuess = new Random().Next(1,101); // a number from 1 to 100
+    int currentGuess = 0; // start with an incorrect guess
+    int counter=0;
+
+do{
+    Console.WriteLine("Guess the number (1 to 100): ");
+    currentGuess = int.Parse(Console.ReadLine());
+    if (currentGuess < numberToGuess)
+    {
+        Console.WriteLine("You guessed too low! Try again!");
+    }
+    if (currentGuess > numberToGuess)
+    {
+        Console.WriteLine("You guessed too high! Try again!");
+    }
+    if(counter == 5){
+        Console.WriteLine($"You numberToGuess is {numberToGuess}" );
+                counter = 0;
+    }  
+    counter = counter+1;
+  }while (currentGuess != numberToGuess);
+    Console.WriteLine("You got it! Good job!");
+  }
+```
+
 ### Exiting a Loop
 
 There are several ways you can exit a loop in C#. The first one is for the loop conditional expression to evaluate to ``false``. When that happens, the loop will skip its block of code and execution will continue on the next statement after the loop code block.
