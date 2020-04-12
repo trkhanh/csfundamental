@@ -36,8 +36,8 @@ You can think of a ``while`` loop as being just like an ``if`` statement that ke
 ### Another way to go with While is do-while
 ```C#
   int numberToGuess = new Random().Next(1,101); // a number from 1 to 100
-    int currentGuess = 0; // start with an incorrect guess
-    int counter=0;
+  int currentGuess = 0; // start with an incorrect guess
+  int counter=0;
 
 do{
     Console.WriteLine("Guess the number (1 to 100): ");
